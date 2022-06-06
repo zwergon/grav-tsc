@@ -1,0 +1,17 @@
+title: Théâtre Sur Cour
+author:
+  name: Jef Lecomte
+  email: 'jef@theatresurcour.fr'
+metadata:
+    description: 'Grav Site pour Théâtre Sur Cour'
+
+# Links to include in footer navigation
+# For external links add external: true
+links:
+  - title: Portfolio
+    url: '#portfolio'
+  - title: Team
+    url: '#team'
+  - title: About
+    url: '#about'
+ 

@@ -1,0 +1,10 @@
+home:
+  alias: '/home'
+
+pages:
+  theme: agency
+  process:
+    markdown: true
+    twig: false
+  markdown:
+    extra: true  

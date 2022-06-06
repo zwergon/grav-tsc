@@ -1,0 +1,11 @@
+state: enabled
+email: jef.lecomte@gmail.com
+fullname: Jef
+title: Administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$JNm2c1wlIfk0CJDqRryccekR5MGSGvgnOCfh1ySvi.59mBVvTwdhu
