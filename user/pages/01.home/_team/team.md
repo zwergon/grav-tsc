@@ -22,8 +22,18 @@ people:
           url: '#'
         - title: stack-overflow
           url: '#'
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.          
+    - name: Marie Lardanchet
+      pic: marie.png
+      position: Actrice, Régisseuse Son.
+      social:
+        - title: twitter
+          url: '#'
+        - title: facebook
+          url: '#'
+        - title: stack-overflow
+          url: '#'
+description: Une équipe de choc.        
 ---
 
-## Our Amazing Team
-### Lorem ipsum dolor sit amet consectetur.
+## Notre compagnie
+### Des gens aguéris au service d'un texte.
