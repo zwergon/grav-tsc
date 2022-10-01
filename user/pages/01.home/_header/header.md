@@ -2,8 +2,8 @@
 title: Header
 menu: Top
 buttons:
-    - text: Tell me more
-      url: '#about'
+    - text: Dites m'en plus
+      url: '#team'
       primary: true
 featured: header.jpg
 ---

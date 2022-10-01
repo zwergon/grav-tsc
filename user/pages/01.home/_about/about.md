@@ -15,4 +15,4 @@ abouts:
 ---
 
 ## About
-### Lorem ipsum dolor sit amet consectetur.
+### Quelques dates clés de la compagnie

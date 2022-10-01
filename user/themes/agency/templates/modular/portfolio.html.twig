@@ -18,7 +18,8 @@
                 </a>
                 <div class="portfolio-caption">
                     <h4>{{ portfolio.title }}</h4>
-                    <p class="text-muted">{{ portfolio.subtitle }}</p>
+                    <p class="text-muted">{{ portfolio.author }}</p>
+                    
                 </div>
             </div>
 
@@ -42,20 +43,45 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ portfolio.title }}</h2>
+                            <h3>{{ portfolio.author }}</h3>
+                             <p>
+                            {% for p in portfolio.prix %}
+                              {{ p.recompense|raw }}<br>
+                            {% endfor %}
+                            </p>
                             <hr class="star-primary">
                             <img src="{{ page.media[portfolio.img].url }}" class="img-responsive img-centered" alt="{{ portfolio.alt }}">
                             <p>{{ portfolio.description }}</p>
+                            <h4>Distribution</h4>
+                            <table align="" style="font-size: 90%; width: 400px; text-align: left; margin-left: auto; margin-right: auto;" cellspacing="2" cellpadding="2" border="0">
+    						<tbody>
+                            {% for acteur in portfolio.acteurs %}
+                            {% if loop.index % 2 == 0 %}
+                            <tr>
+            					 <td style="text-align: right; font-weight: bold; background-color: #ffffcc; padding-right: 5px;">
+                					{{ acteur.role }}:
+            					</td>
+            					  <td style="background-color: #ffffcc;  padding-left: 5px;" >
+                 					{{ acteur.name }}
+            					</td>
+        					</tr>
+                            {% else %}
+                            <tr>
+            					<td style="text-align: right; font-weight: bold; background-color: #ccccff; padding-right: 5px;">
+                					{{ acteur.role }}:
+            					</td>
+            					<td style="background-color: #ccccff; padding-left: 5px;" >
+                 					{{ acteur.name }}
+            					</td>
+        					</tr>
+                            {% endif %}
+                            {% endfor %}
+                            </tbody>
+							</table>
+							<hr class="star-primary">
                             <ul class="list-inline item-details">
-                                <li>Author:
-                                    <strong>{{ portfolio.author }}</strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ portfolio.projectdate }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ portfolio.category }}</a>
-                                    </strong>
+                                <li>Période:
+                                    <strong>{{ portfolio.projectdate }} </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
