@@ -6,11 +6,11 @@ people:
       pic: jef.jpg
       position: Président, Acteur, Metteur en Scène
       social:
-        - title: twitter
+        - title: instagram
           url: '#'
         - title: facebook
-          url: '#'
-        - title: stack-overflow
+          url: 'https://www.facebook.com/jef.lecomte'
+        - title: grav
           url: '#'
     - name: Valérie Tribout
       pic: val.png
@@ -20,7 +20,7 @@ people:
           url: '#'
         - title: facebook
           url: '#'
-        - title: stack-overflow
+        - title: grav
           url: '#'
     - name: Marie Lardanchet
       pic: marie.png
@@ -30,8 +30,49 @@ people:
           url: '#'
         - title: facebook
           url: '#'
-        - title: stack-overflow
+        - title: grav
           url: '#'
+    - name: Claire Garoche-Cambie
+      pic: claire.jpg
+      position: Actrice
+      social:
+        - title: twitter
+          url: '#'
+        - title: facebook
+          url: '#'
+        - title: grav
+          url: '#'
+    - name: Philippe Sourigues
+      pic: lilou.jpg
+      position: Acteur
+      social:
+        - title: twitter
+          url: '#'
+        - title: facebook
+          url: '#'
+        - title: grav
+          url: '#'
+    - name: Suzy Dupont
+      pic: suzy.jpg
+      position: Actrice
+      social:
+        - title: twitter
+          url: '#'
+        - title: facebook
+          url: '#'
+        - title: grav
+          url: '#'
+    - name: Kevin Gouabault
+      pic: kevin.jpg
+      position: Acteur
+      social:
+        - title: twitter
+          url: '#'
+        - title: facebook
+          url: '#'
+        - title: grav
+          url: '#'
+    
 description: Une équipe de choc.        
 ---
 

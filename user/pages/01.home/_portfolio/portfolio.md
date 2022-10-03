@@ -4,11 +4,11 @@ menu: Portfolio
 portfolios:
 	- title: Une Preuve
       layout: default
-      modalid: 4
+      modalid: 6
       img: une_preuve.jpg
       thumbnail: une_preuve-thumbnail.jpg
       alt: image-alt
-      projectdate: 2021-202*
+      projectdate: 2021-2022
       author: David Auburn
       description: Une Preuve nous interroge sur notre capacité à reconnaitre le génie, surtout mathématique, quand il est possédé par une femme.
       acteurs:
@@ -22,7 +22,7 @@ portfolios:
              role: Claire
     - title: Juste La Fin Du Monde
       layout: default
-      modalid: 3
+      modalid: 5
       img: juste_la_fin.jpg
       thumbnail: juste_la_fin-thumbnail.jpg 
       alt: image-alt
@@ -45,7 +45,7 @@ portfolios:
              role: Louis
     - title: Jean & Béatrice
       layout: default
-      modalid: 2
+      modalid: 4
       date: 
       img: jean_beatrice.jpg
       thumbnail: jean_beatrice-thumbnail.jpg
@@ -64,6 +64,42 @@ portfolios:
              role: Jean
            - name: Jef Lecomte
              role: Jean
+    - title: Le Visiteur
+      layout: default
+      modalid: 3
+      img: le_visiteur.jpg
+      thumbnail: le_visiteur-thumbnail.jpg
+      alt: image-alt
+      projectdate: 2014-2017
+      author: Eric Emmanuel Schmitt
+      description: Les convictions d'un homme au seuil de sa vie, même si c'est un génie, quand la peste brune menace et quand on le prive de sa fille sont elles inébranlables ? La raison tient elle face à l'absurde ? Freud, dans son désert, résitera il à la tentation du visiteur ?
+      acteurs:
+           - name: Eric Brun
+             role: Freud
+           - name: Violette Erhart
+             role: Anna Freud
+           - name: Frédéric Pillet
+             role: Le Nazi
+           - name: Jef Lecomte
+             role: Le Visiteur
+    - title: Baiser de la Veuve
+      layout: default
+      modalid: 2
+      img: baiser.jpg
+      thumbnail: baiser-thumbnail.jpg
+      alt: image-alt
+      projectdate: 2013-2014
+      author: Israël Horovitz
+      prix:
+           - recompense: Prix du Conseil Général au festival de Maisons-Laffitte, 2014.
+      description: Dans un atelier de recyclage de papiers, Georges et Bobby, forçats des temps modernes, vident leurs bières en se remémorant le bon temps passé. Ils attendent Betty, amie de jeunesse, revenue dans cette bourgade reculée après 13 ans d’absence. Elle a changé, elle a réussi. Ces retrouvailles teintées de sarcasmes, de tendresse faussement romantique, de jeux puérils et absurdes laissent percevoir un terrible drame passé sous silence que les années n’ont pas effacé. L‘héroïne vengeresse tisse la toile d’un macabre scénario, nous rappelant que l’arme des humiliés reste la vengeance. Et le pire c’est qu’on rit….
+      acteurs:
+           - name: Valérie Tribout
+             role: Betty
+           - name: Frédéric Pillet
+             role: Georges ( La Crevette )
+           - name: Jef Lecomte
+             role: Bobby (le Bélier)
     - title: Doute
       layout: default
       modalid: 1
