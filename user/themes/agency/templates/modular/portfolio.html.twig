@@ -19,10 +19,8 @@
                 <div class="portfolio-caption">
                     <h4>{{ portfolio.title }}</h4>
                     <p class="text-muted">{{ portfolio.author }}</p>
-                    
                 </div>
             </div>
-
         {% endfor %}
     </div>
 </div>
@@ -54,36 +52,61 @@
                             <p>{{ portfolio.description }}</p>
                             <h4>Distribution</h4>
                             <table align="" style="font-size: 90%; width: 400px; text-align: left; margin-left: auto; margin-right: auto;" cellspacing="2" cellpadding="2" border="0">
-    						<tbody>
+                            <tbody>
                             {% for acteur in portfolio.acteurs %}
                             {% if loop.index % 2 == 0 %}
                             <tr>
-            					 <td style="text-align: right; font-weight: bold; background-color: #ffffcc; padding-right: 5px;">
-                					{{ acteur.role }}:
-            					</td>
-            					  <td style="background-color: #ffffcc;  padding-left: 5px;" >
-                 					{{ acteur.name }}
-            					</td>
-        					</tr>
+                                 <td style="text-align: right; font-weight: bold; background-color: #ffffcc; padding-right: 5px;">
+                                    {{ acteur.role }}:
+                                </td>
+                                  <td style="background-color: #ffffcc;  padding-left: 5px;" >
+                                     {{ acteur.name }}
+                                </td>
+                            </tr>
                             {% else %}
                             <tr>
-            					<td style="text-align: right; font-weight: bold; background-color: #ccccff; padding-right: 5px;">
-                					{{ acteur.role }}:
-            					</td>
-            					<td style="background-color: #ccccff; padding-left: 5px;" >
-                 					{{ acteur.name }}
-            					</td>
-        					</tr>
+                                <td style="text-align: right; font-weight: bold; background-color: #ccccff; padding-right: 5px;">
+                                    {{ acteur.role }}:
+                                </td>
+                                <td style="background-color: #ccccff; padding-left: 5px;" >
+                                     {{ acteur.name }}
+                                </td>
+                            </tr>
                             {% endif %}
                             {% endfor %}
                             </tbody>
-							</table>
-							<hr class="star-primary">
+                            </table>
+                            <hr class="star-primary">
                             <ul class="list-inline item-details">
                                 <li>Période:
                                     <strong>{{ portfolio.projectdate }} </strong>
                                 </li>
                             </ul>
+
+                            {% if portfolio.press_kit %}
+                            {% set file = page.media[portfolio.press_kit] %}
+                            {% set mediatype = file.mime %}
+                            {% set url = file.url|e %}
+                            <h4>Dossier de présentation</h4>
+                            <div class="row">
+                                <div class="col-md-6 text-right">
+                                    <a href="{{ url}}">
+                                        <img src="{{url('theme://img/pdf.png')|e}}" width="51" height="51" alt="Télécharger">
+                                    </a>
+                                </div>
+                                <div class="col-md-6 text-left">
+                                    <p>
+                                    {{ portfolio.press_kit }}<br />
+                                    {% if ('pdf' in mediatype) %}
+                                        Document Adobe Acrobat<br />
+                                    {% endif %}
+                                    {# TODO Process other type #}
+                                    <a href="{{ url }}" class="cc-m-download-link">Télécharger</a>
+                                    </p>
+                                </div>
+                            </div>
+                            {% endif %}
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
