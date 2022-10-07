@@ -12,5 +12,7 @@ content:
             - _portfolio
             - _team
             - _about
+            - _contact
+
 ---
 
