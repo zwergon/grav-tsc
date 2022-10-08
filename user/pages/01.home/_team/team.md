@@ -7,7 +7,7 @@ people:
       position: Président, Acteur, Metteur en Scène
       social:
         - title: instagram
-          url: '#'
+          url: 'https://www.instagram.com/jeflecomte'
         - title: facebook
           url: 'https://www.facebook.com/jef.lecomte'
         - title: grav
@@ -48,7 +48,7 @@ people:
       social:
         - title: twitter
           url: '#'
-        - title: facebook
+        - title: https://www.facebook.com/philippe.sourigues
           url: '#'
         - title: grav
           url: '#'
