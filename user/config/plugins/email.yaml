@@ -1,0 +1,15 @@
+enabled: true
+from: noreply@theatresurcour.fr
+from_name: 'Site Théatre sur Cour'
+to: jef@theatresurcour.fr
+to_name: Jef
+mailer:
+  engine: smtp
+  smtp:
+    server: ssl0.ovh.net
+    port: 587
+    encryption: tls
+    user: website@theatresurcour.fr
+    password: tjSUpL7W7HvsYb35
+content_type: text/html
+debug: false
