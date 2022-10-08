@@ -10,6 +10,7 @@ portfolios:
       alt: image-alt
       projectdate: 2021-2022
       author: David Auburn
+      press_kit: une_preuve.pdf
       description: Une Preuve nous interroge sur notre capacité à reconnaitre le génie, surtout mathématique, quand il est possédé par une femme.
       acteurs:
            - name: Claire Garoche
@@ -28,6 +29,7 @@ portfolios:
       alt: image-alt
       projectdate: 2019-202*
       author: Jean-Luc Lagarce
+      press_kit: juste.pdf
       prix: 
            - recompense: Cheval d'or au festival de Maison Laffite, 2022
            - recompense: Premier Prix au festival de Fribourg (Suisse), 2021
@@ -52,6 +54,7 @@ portfolios:
       alt: image-alt
       projectdate: 2017-2019
       author: Carole Fréchette
+      press_kit: jean_beatrice.pdf
       prix:
            - recompense: Prix du Public au festival de Maisons-Laffitte, 2018
            - recompense: Prix du Jury au festival de Montferrand, 2018
