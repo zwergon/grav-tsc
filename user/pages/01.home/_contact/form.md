@@ -46,6 +46,7 @@ form:
               extension: txt
               body: '{% include ''forms/data.txt.twig'' %}'
         - message: 'Merci pour votre message ! Une copie du mail vous atend dans votre boite mail.'
+published: false
 ---
 
 ## Contacez-nous
