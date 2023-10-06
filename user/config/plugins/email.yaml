@@ -1,0 +1,10 @@
+enabled: true
+from: jef@theatresurcour.fr
+to: jef@theatresurcour.fr
+mailer:
+  engine: smtp
+  smtp:
+    server: ssl0.ovh.net
+    port: 587
+    user: 'website@theatresurcour.fr'
+    password: 'x29wKeR5X5'

@@ -32,6 +32,7 @@ portfolios:
     img: une_preuve.jpg
     thumbnail: une_preuve-thumbnail.jpg
     alt: image-alt
+    press_kit: une_preuve.pdf
     projectdate: 2021-2022
     author: David Auburn
     description: >-
@@ -82,6 +83,7 @@ portfolios:
     img: jean_beatrice.jpg
     thumbnail: jean_beatrice-thumbnail.jpg
     alt: image-alt
+    press_kit: jean_beatrice.pdf
     projectdate: 2017-2019
     author: Carole Fréchette
     prix:

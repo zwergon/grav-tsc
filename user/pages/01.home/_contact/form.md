@@ -41,7 +41,15 @@ form:
           value: Submit
         
     process:
+        - email:
+            from: "{{ config.plugins.email.from }}"
+            to:
+              - "{{ config.plugins.email.from }}"
+              - "{{ form.value.email }}"
+            subject: "Message de {{ form.value.name|e }} "
+            body: "{% include 'forms/data.html.twig' %}"
         - message: Thank you for getting in touch!
+        - reset: true
 ---
 
 ## Nous Contacter
