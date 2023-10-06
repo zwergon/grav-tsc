@@ -8,11 +8,10 @@ content:
         by: default
         dir: asc
         custom:
-            - _header
+            - _carroussel
             - _portfolio
             - _team
             - _about
             - _contact
-
 ---
 

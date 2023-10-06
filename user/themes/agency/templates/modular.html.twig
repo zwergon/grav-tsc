@@ -7,6 +7,9 @@
 {% block content %}
     {{ page.content|raw }}
     {% for module in page.collection() %}
-        {{ module.content|raw }}
+        {% if module.header.title|contains('Slider')%}
+        {% else %}
+            {{ module.content|raw }}
+        {% endif %}
     {% endfor %}
 {% endblock %}

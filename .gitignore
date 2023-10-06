@@ -1,3 +1,6 @@
 
 cache
-logs/*
+logs/grav.log
+logs/popularity
+.azure/config
+.azure

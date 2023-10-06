@@ -12,5 +12,8 @@ links:
     url: '#portfolio'
   - title: Team
     url: '#team'
-  - title: À propos
+  - title: About
     url: '#about'
+  - title: Contact
+    url: '#contact'
+ 

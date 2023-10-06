@@ -62,8 +62,8 @@ people:
           url: '#'
         - title: grav
           url: '#'
-    - name: Kevin Gouabault
-      pic: kevin.jpg
+    - name: Raphaël Lardon
+      pic: raphael.jpg
       position: Acteur
       social:
         - title: twitter

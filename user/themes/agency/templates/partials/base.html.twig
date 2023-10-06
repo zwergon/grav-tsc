@@ -13,6 +13,7 @@
     {% do assets.addCss('theme://css-compiled/global.css',100) %}
     {% do assets.addCss('theme://css/custom.css',100) %}
     {% do assets.addCss('theme://css/font-awesome.min.css',100) %}
+    {% do assets.addCss('theme://css/carroussel.css',100) %}
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='//fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -39,6 +40,7 @@
   {% block header_navigation %}
     {% include 'partials/navigation.html.twig' %}
   {% endblock %}
+
   {% block body %}
     {% block content %}{% endblock %}
   {% endblock %}
